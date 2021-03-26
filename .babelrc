@@ -1,0 +1,9 @@
+//This file basically tells that whenever you run babel use the following presets as described below.    
+
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ],
+    "plugins": ["@babel/plugin-proposal-class-properties"]
+}
